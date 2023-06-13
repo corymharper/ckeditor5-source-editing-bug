@@ -14,7 +14,7 @@ function App() {
     e.preventDefault();
 
     console.log(value);
-    navigate('/success');
+    navigate('success');
   };
 
   const handleChange = (_, editor) => {

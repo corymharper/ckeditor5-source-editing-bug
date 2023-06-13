@@ -9,12 +9,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 let routes = [
   {
-    path: '/',
-    element: <App />,
-  },
-  {
-    path: '/success',
-    element: <Success />
+    path: 'ckeditor5-source-editing-bug',
+    children: [
+      {
+        index: true,
+        element: <App />,
+      },
+      {
+        path: 'success',
+        element: <Success />
+      },
+    ]
   }
 ];
 
