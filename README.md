@@ -2,7 +2,7 @@
 
 *Warning: These steps cause an infinite loop in the browser*
 
-1. Run `yarn start` locally after cloning this repository and visit the URL indicated by the command, or visit the [Github Pages website](https://corymharper.github.io/ckeditor5-source-editing-bug/).
+1. Run `yarn start` locally after cloning this repository and visit the URL indicated by the command, or visit the [Github Pages website](https://corymharper.github.io/#/ckeditor5-source-editing-bug/).
 
 2. Open the browser console.
 
