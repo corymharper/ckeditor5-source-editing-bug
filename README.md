@@ -12,4 +12,4 @@
 
 4. Make any change to the text in the editor now that source editing is active.
 
-5. The infinite loop may have already started, if it ahs you will see that displayed in the console, otherwise hit the submit button and it should start.
+5. The infinite loop may have already started, if it has you will see that displayed in the console, otherwise hit the submit button and it should start.
