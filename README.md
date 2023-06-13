@@ -1,4 +1,4 @@
-# Step to reproduce
+# Steps to reproduce
 
 *Warning: These steps cause an infinite loop in the browser*
 
