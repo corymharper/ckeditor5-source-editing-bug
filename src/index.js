@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Success from './Success';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,16 +23,7 @@ let routes = [
   }
 ];
 
-if (process.env.NODE_ENV === 'production') {
-  routes = [
-    {
-      path: 'ckeditor5-source-editing-bug',
-      children: routes
-    }
-  ];
-}
-
-const router = createBrowserRouter(routes);
+const router = createHashRouter(routes);
 
 root.render(
   <React.StrictMode>
