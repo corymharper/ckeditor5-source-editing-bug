@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === 'production') {
   routes = [
     {
       path: 'ckeditor5-source-editing-bug',
-      routes
+      children: routes
     }
   ];
 }
