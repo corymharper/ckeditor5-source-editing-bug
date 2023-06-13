@@ -7,18 +7,27 @@ import Success from './Success';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const baseURI = process.env.NODE_ENV === 'production' ? 'ckeditor5-source-editing-bug/' : '/';
-
-const router = createBrowserRouter([
+let routes = [
   {
-    path: baseURI,
+    path: '/',
     element: <App />,
   },
   {
-    path: `${baseURI}success`,
+    path: '/success',
     element: <Success />
   }
-]);
+];
+
+if (process.env.NODE_ENV === 'production') {
+  routes = [
+    {
+      path: 'ckeditor5-source-editing-bug',
+      routes
+    }
+  ];
+}
+
+const router = createBrowserRouter(routes);
 
 root.render(
   <React.StrictMode>
