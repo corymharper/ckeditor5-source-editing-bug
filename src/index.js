@@ -7,13 +7,15 @@ import Success from './Success';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+const baseURI = process.env.NODE_ENV === 'production' ? 'ckeditor5-source-editing-bug/' : '/';
+
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: baseURI,
     element: <App />,
   },
   {
-    path: '/success',
+    path: `${baseURI}success`,
     element: <Success />
   }
 ]);
