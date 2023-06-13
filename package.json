@@ -1,7 +1,7 @@
 {
   "name": "ckeditor5-source-editing-bug",
   "version": "0.1.0",
-  "homepage": "https://corymharper.github.io/#/ckeditor5-source-editing-bug",
+  "homepage": "https://corymharper.github.io/ckeditor5-source-editing-bug/#",
   "private": true,
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^6.0.0",

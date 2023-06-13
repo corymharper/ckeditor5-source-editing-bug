@@ -8,9 +8,6 @@ import Success from './Success';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 let routes = [
-  {
-    path: 'ckeditor5-source-editing-bug',
-    children: [
       {
         index: true,
         element: <App />,
@@ -19,9 +16,7 @@ let routes = [
         path: 'success',
         element: <Success />
       },
-    ]
-  }
-];
+  ];
 
 const router = createHashRouter(routes);
 
