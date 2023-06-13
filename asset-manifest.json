@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ckeditor5-source-editing-bug/static/css/main.a9b7e9cb.css",
-    "main.js": "/ckeditor5-source-editing-bug/static/js/main.f836e2b1.js",
+    "main.js": "/ckeditor5-source-editing-bug/static/js/main.a1663755.js",
     "index.html": "/ckeditor5-source-editing-bug/index.html",
     "main.a9b7e9cb.css.map": "/ckeditor5-source-editing-bug/static/css/main.a9b7e9cb.css.map",
-    "main.f836e2b1.js.map": "/ckeditor5-source-editing-bug/static/js/main.f836e2b1.js.map"
+    "main.a1663755.js.map": "/ckeditor5-source-editing-bug/static/js/main.a1663755.js.map"
   },
   "entrypoints": [
     "static/css/main.a9b7e9cb.css",
-    "static/js/main.f836e2b1.js"
+    "static/js/main.a1663755.js"
   ]
 }
